@@ -21,12 +21,19 @@ and open the template in the editor.
 		<h1>Cinemas Moradon</h1>
 		<form>
 		  Cinema a buscar:
-		  <br>
-			<input type="text" name="CinemaABuscar">
-			<button type="button">Buscar</button>
-		  </br>
+			<br>
+				<input type="text" id="cinema" name="CinemaABuscar">
+				<input type="button" value="Genera una tabla" onclick="c.revisar()">
+			</br>
 		</form>
-		
-		
+		<table>
+			<thead>
+				<th>Funcion</th>
+				<th>Genero</th>
+				<th>Fecha</th>
+			</thead>
+			<tbody id="cuerpo">
+			</tbody>
+		</table>	
 	</body>
 </html>

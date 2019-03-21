@@ -10,4 +10,3 @@ edu\eci\arsw\cinema\controllers\ResourceNotFoundException.class
 edu\eci\arsw\cinema\persistence\CinemaException.class
 edu\eci\arsw\cinema\persistence\CinemaPersistenceException.class
 edu\eci\arsw\cinema\persistence\impl\InMemoryCinemaPersistence.class
-.netbeans_automatic_build
